@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "veritas",
+  "alias": "veritas.juanm04.com",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
+  ],
+  "routes": [
+    { "src": "./public/(.*)", "headers": { "cache-control": "s-maxage=31536000,immutable" }, "dest": "/$1" },
+    { "src": "./public/manifest.json", "dest": "/manifest.json" },
+    { "src": "./src/serviceWorker.js", "headers": { "cache-control": "s-maxage=0" }, "dest": "/serviceWorker.js" },
+    { "src": "./(.*)", "headers": {"cache-control": "s-maxage=0"}, "dest": "/index.html" }
+  ]
+}

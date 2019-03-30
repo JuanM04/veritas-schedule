@@ -1,0 +1,61 @@
+@import "../vars.scss";
+
+.wrapper, .moduleInfo {
+  width: $modulesAndGaps + $gapBetweenModules !important;
+  margin: auto !important;
+
+  @include smaller {
+    width: r($modulesAndGaps + $gapBetweenModules) !important;
+  }
+}
+
+.moduleInfo {
+  color: #ffffff;
+  border-radius: .3rem;
+  height: 150px;
+
+  @include smaller {
+    height: r(150px);
+  }
+
+  &Name {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    max-width: 67%;
+    position: absolute;
+    right: 30px;
+
+    @include smaller {
+      font-size: r(20px);
+      right: r(30px);
+    }
+  }
+
+  &Time {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-style: italic;
+    text-align: center;
+
+    @include smaller {
+      right: r(30px);
+    }
+  }
+
+  &Icon {
+    font-size: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0.75;
+    transform: rotate(-15deg);
+
+    @include smaller {
+      font-size: r(100px);
+      bottom: r(20px);
+      left: r(20px);
+    }
+  }
+}

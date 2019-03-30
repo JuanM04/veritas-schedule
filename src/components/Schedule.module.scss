@@ -1,0 +1,49 @@
+@import "../vars.scss";
+
+.schedule {
+  position: relative;
+  width: $modulesAndGaps;
+  left: 30px;
+
+  @include smaller {
+    width: r($modulesAndGaps);    
+    left: r(30px);
+  }
+
+  &Time, &Now {
+    position: absolute;
+    left: $moduleWidth / -2;
+    width: $fullScheduleWidth;
+
+    @include smaller {
+      left: r($moduleWidth / -2);
+      width: r($fullScheduleWidth);
+      display: block;
+    }
+  }
+
+  &TimeNumber {
+    position: absolute;
+    font-weight: 300;
+    opacity: 0.75;
+  }
+
+  &TimeLine, &NowLine {
+    position: absolute;
+    width: $fullScheduleWidth;
+    margin: 0;
+  }
+
+  &NowLine {
+    width: $moduleWidth + $gapBetweenModules / 2;
+    border-width: 1.5px 0;
+    border-style: dashed;
+    z-index: 10;
+    border-color: #ffca28;
+
+    @include smaller {
+      width: r($moduleWidth + $gapBetweenModules / 2);
+      border-width: r(1.5px) 0;
+    }
+  }
+}

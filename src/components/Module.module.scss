@@ -1,0 +1,20 @@
+@import "../vars.scss";
+
+.module {
+  width: $moduleWidth;
+  color: white;
+  position: absolute !important;
+
+  @include smaller {
+    font-size: r($moduleWidth);
+  }
+
+  &Icon {
+    margin: auto;
+    font-size: 30px;
+  
+    @include smaller {
+      font-size: r(30px);
+    }
+  }
+}

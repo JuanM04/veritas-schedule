@@ -3,15 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.12.1",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "shards-react": "^1.0.3",
+    "typescript": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prod": "yarn build && serve ./build -s -l 5000",
+    "now-build": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"

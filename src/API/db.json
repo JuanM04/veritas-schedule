@@ -1,0 +1,525 @@
+{
+  "global": {
+    "subjects": [
+      {
+        "name": "Literatura",
+        "color": "#558B2F",
+        "icon": "book-open",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Claudia",
+            "last_name": "Savino"
+          }
+        ],
+        "modules": [
+          {
+            "day": "TUE",
+            "is_ssm": true,
+            "ssm_number": 11
+          },
+          {
+            "day": "THU",
+            "is_ssm": true,
+            "ssm_number": 12
+          }
+        ]
+      },
+      {
+        "name": "Matemáticas",
+        "color": "#F4511E",
+        "icon": "square-root-alt",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Célica",
+            "last_name": "Fantini"
+          }
+        ],
+        "modules": [
+          {
+            "day": "MON",
+            "is_ssm": true,
+            "ssm_number": 12
+          },
+          {
+            "day": "WED",
+            "is_ssm": true,
+            "ssm_number": 11
+          },
+          {
+            "day": "WED",
+            "is_ssm": true,
+            "ssm_number": 12
+          },
+          {
+            "day": "THU",
+            "is_ssm": true,
+            "ssm_number": 14
+          }
+        ]
+      },
+      {
+        "name": "Inglés",
+        "color": "#283593",
+        "icon": "language",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "María Rosa",
+            "last_name": "Defunchio"
+          }
+        ],
+        "modules": [
+          {
+            "day": "THU",
+            "is_ssm": true,
+            "ssm_number": 13
+          },
+          {
+            "day": "FRI",
+            "is_ssm": true,
+            "ssm_number": 12
+          }
+        ]
+      },
+      {
+        "name": "Salud y Adolescencia",
+        "color": "#D32F2F",
+        "icon": "heartbeat",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Soledad",
+            "last_name": "Stacchiotti"
+          }
+        ],
+        "modules": [
+          {
+            "day": "TUE",
+            "is_ssm": true,
+            "ssm_number": 14
+          },
+          {
+            "day": "WED",
+            "is_ssm": true,
+            "ssm_number": 14
+          }
+        ]
+      },
+      {
+        "name": "Materiales",
+        "color": "#795548",
+        "icon": "weight-hanging",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Claudina",
+            "last_name": "Abitante"
+          }
+        ],
+        "modules": [
+          {
+            "day": "TUE",
+            "is_ssm": true,
+            "ssm_number": 12
+          },
+          {
+            "day": "FRI",
+            "is_ssm": true,
+            "ssm_number": 13
+          }
+        ]
+      },
+      {
+        "name": "Física",
+        "color": "#EF6C00",
+        "icon": "apple-alt",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Claudia",
+            "last_name": "Maldonado"
+          }
+        ],
+        "modules": [
+          {
+            "day": "MON",
+            "is_ssm": true,
+            "ssm_number": 11
+          },
+          {
+            "day": "WED",
+            "is_ssm": true,
+            "ssm_number": 13
+          },
+          {
+            "day": "THU",
+            "is_ssm": true,
+            "ssm_number": 11
+          }
+        ]
+      },
+      {
+        "name": "Química",
+        "color": "#43A047",
+        "icon": "vial",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Valeria",
+            "last_name": "Tiberi"
+          }
+        ],
+        "modules": [
+          {
+            "day": "TUE",
+            "is_ssm": true,
+            "ssm_number": 13
+          },
+          {
+            "day": "WED",
+            "is_ssm": true,
+            "ssm_number": 15
+          }
+        ]
+      },
+      {
+        "name": "Geografía",
+        "color": "#039BE5",
+        "icon": "globe-americas",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Romina",
+            "last_name": "Gajate"
+          }
+        ],
+        "modules": [
+          {
+            "day": "MON",
+            "is_ssm": true,
+            "ssm_number": 14
+          },
+          {
+            "day": "FRI",
+            "is_ssm": true,
+            "ssm_number": 14
+          }
+        ]
+      },
+      {
+        "name": "Historia",
+        "color": "#7E57C2",
+        "icon": "landmark",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "Mónica",
+            "last_name": "Fusetti"
+          }
+        ],
+        "modules": [
+          {
+            "day": "MON",
+            "is_ssm": true,
+            "ssm_number": 13
+          },
+          {
+            "day": "FRI",
+            "is_ssm": true,
+            "ssm_number": 11
+          }
+        ]
+      },
+      {
+        "name": "Educación Física",
+        "color": "#E91E63",
+        "icon": "running",
+        "professors": [
+          {
+            "group": "all",
+            "first_name": "",
+            "last_name": ""
+          }
+        ],
+        "modules": [
+          {
+            "day": "TUE",
+            "is_ssm": false,
+            "start_time": "15:35",
+            "end_time": "17:35"
+          }
+        ]
+      }
+    ]
+  },
+  "groups": {
+    "2": {
+      "subjects": [
+        {
+          "name": "Instalación y Aplicación de la Energía",
+          "color": "#424242",
+          "icon": "plug",
+          "modules": [
+            {
+              "day": "WED",
+              "is_ssm": true,
+              "ssm_number": 32
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 23
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 24
+            }
+          ]
+        },
+        {
+          "name": "Dibujo Tecnológico",
+          "color": "#6A1B9A",
+          "icon": "drafting-compass",
+          "modules": [
+            {
+              "day": "TUE",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "TUE",
+              "is_ssm": true,
+              "ssm_number": 22
+            }
+          ]
+        },
+        {
+          "name": "Dibujo y Procesamiento Mecánico",
+          "color": "#004D40",
+          "icon": "cogs",
+          "modules": [
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 22
+            },
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 23
+            },
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 24
+            }
+          ]
+        },
+        {
+          "name": "Máquinas Eléctricas I",
+          "color": "#1565C0",
+          "icon": "bolt",
+          "modules": [
+            {
+              "day": "WED",
+              "is_ssm": true,
+              "ssm_number": 31
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 22
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "subjects": [
+        {
+          "name": "Instalación y Aplicación de la Energía",
+          "color": "#424242",
+          "icon": "plug",
+          "modules": [
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 22
+            },
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 23
+            },
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 24
+            }
+          ]
+        },
+        {
+          "name": "Dibujo Tecnológico",
+          "color": "#6A1B9A",
+          "icon": "drafting-compass",
+          "modules": [
+            {
+              "day": "TUE",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "TUE",
+              "is_ssm": true,
+              "ssm_number": 22
+            }
+          ]
+        },
+        {
+          "name": "Dibujo y Procesamiento Mecánico",
+          "color": "#004D40",
+          "icon": "cogs",
+          "modules": [
+            {
+              "day": "WED",
+              "is_ssm": true,
+              "ssm_number": 31
+            },
+            {
+              "day": "WED",
+              "is_ssm": true,
+              "ssm_number": 32
+            }
+          ]
+        },
+        {
+          "name": "Máquinas Eléctricas I",
+          "color": "#1565C0",
+          "icon": "bolt",
+          "modules": [
+            {
+              "day": "THU",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "THU",
+              "is_ssm": true,
+              "ssm_number": 22
+            },
+            {
+              "day": "THU",
+              "is_ssm": true,
+              "ssm_number": 23
+            },
+            {
+              "day": "THU",
+              "is_ssm": true,
+              "ssm_number": 24
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "subjects": [
+        {
+          "name": "Instalación y Aplicación de la Energía",
+          "color": "#424242",
+          "icon": "plug",
+          "modules": [
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 32
+            },
+            {
+              "day": "THU",
+              "is_ssm": true,
+              "ssm_number": 32
+            }
+          ]
+        },
+        {
+          "name": "Dibujo Tecnológico",
+          "color": "#6A1B9A",
+          "icon": "drafting-compass",
+          "modules": [
+            {
+              "day": "THU",
+              "is_ssm": true,
+              "ssm_number": 31
+            }
+          ]
+        },
+        {
+          "name": "Dibujo y Procesamiento Mecánico",
+          "color": "#004D40",
+          "icon": "cogs",
+          "modules": [
+            {
+              "day": "WED",
+              "is_ssm": true,
+              "ssm_number": 23
+            },
+            {
+              "day": "WED",
+              "is_ssm": true,
+              "ssm_number": 24
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 23
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 24
+            }
+          ]
+        },
+        {
+          "name": "Máquinas Eléctricas I",
+          "color": "#1565C0",
+          "icon": "bolt",
+          "modules": [
+            {
+              "day": "MON",
+              "is_ssm": true,
+              "ssm_number": 31
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 21
+            },
+            {
+              "day": "FRI",
+              "is_ssm": true,
+              "ssm_number": 22
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

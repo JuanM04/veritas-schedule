@@ -1,0 +1,17 @@
+$moduleWidth: 60px;
+$gapBetweenModules: 10px;
+
+$modulesAndGaps: $moduleWidth * 5 + $gapBetweenModules * 4; // 340px
+$fullScheduleWidth: $modulesAndGaps + $moduleWidth; // 400px
+
+
+
+@mixin smaller {
+  @media only screen and (max-width: $fullScheduleWidth) {
+    @content;
+  }
+}
+
+@function r($px) {
+  @return $px * 100vw / $fullScheduleWidth;
+}
